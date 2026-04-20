@@ -8,13 +8,19 @@
 <body>
     <h3>Boka rum</h3>
 
-    <select id="room-list">
+    Gäst: <select id="guest-list">
+    </select><br>
+
+    Rum: <select id="room-list">
     </select><br>
 
     Från <input type="date" id="datefrom"><br>
     Till <input type="date" id="dateto">
 
     <button type="button" id="btn-save">Boka</button>
+
+    <h4>Bokningar</h4>
+    <ul id="bookings-list"></ul>
 
     <script src="script.js"></script>
 </body>
