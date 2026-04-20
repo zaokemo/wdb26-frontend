@@ -46,7 +46,7 @@ async function getGuests() {
         document.getElementById("guest-list").innerHTML += `
             <option value="${guest.id}">
                 ${guest.firstname} - 
-                ${guest.lastname}
+                ${guest.lastname} (${guest.prev_visits} tidigare besök)
             </option>
         `;
     }
